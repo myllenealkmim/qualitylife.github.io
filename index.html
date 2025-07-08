@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Meu Site</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Bem-vindo ao Meu Site!</h1>
+                <p>Desenvolvedor apaixonado por tecnologia</p>
+                <button class="cta-button" onclick="scrollToSection('sobre')">
+                    Saiba Mais
+                </button>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor em constante aprendizado, sempre buscando criar soluções inovadoras e funcionais.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do primeiro projeto</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição do segundo projeto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Email: seuemail@exemplo.com</p>
+                <p>LinkedIn: /in/seulinkedin</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
